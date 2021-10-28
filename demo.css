@@ -1,0 +1,60 @@
+body {
+    position: relative;
+}
+
+div.b {
+    width: 400px;
+    height: 400px;
+    background-color: skyblue;
+    position: absolute;
+    margin: auto;
+    top: 200px;
+    left: 0;
+    right: 0;
+    border-radius: 50%
+}
+
+div.c {
+    width: 4px;
+    height: 334px;
+    background-color: skyblue;
+    position: absolute;
+    margin: auto;
+    top: 30px;
+    left: 0;
+    right: 0;
+    transition: 3s, normal
+}
+
+div.xuanting {
+    border-radius: 50%;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:184px;
+    left: 188px;
+}
+
+div.d {
+    width: 4px;
+    height: 167px;
+    background-color: blue
+}
+
+div.e {
+    width: 4px;
+    height: 167px;
+    background-color: skyblue
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    background-color: coral;
+    position: absolute;
+    top: 360px;
+    left:500px;
+    cursor: pointer;
+    text-align: center
+}
